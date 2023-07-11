@@ -1,0 +1,78 @@
+.app{
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  gap: 20px;
+  height: 100vh;
+  
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+}
+.login{
+  margin-left: 40%;
+}
+input[type="text"],
+input[type="password"] {
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+  margin-top: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  
+  background: #d20f01;
+  border: 1px solid #d20f01;
+  color: #fff;  
+  padding: 10px 20px;
+  align-items: center;
+}
+
+input[type="submit"]:hover {
+  background: #d20f01;
+}
+
+
+
+.login-form {
+  background-color: white;
+  padding: 0.5rem;
+  /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+  border-radius: 25px;
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.fp1{
+ border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 50px;
+}
+.button-container{
+  margin-left: 40%;
+}
+.signup
+{
+  margin-left: 45%;
+  margin-bottom: 10%;
+}
+.overall{
+  height: 30%;
+}
