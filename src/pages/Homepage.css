@@ -1,0 +1,105 @@
+body {
+  padding:20px 10px;
+   margin:0;
+    font-family:Arial Helvetica sans-serif;
+  }
+  h1{
+    color: antiquewhite;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    float: left;
+    padding: 0px 0px 0px 25px;
+  }
+  .topnav,button {
+    /* overflow: hidden; */
+    /* padding: 5px 5px; */
+    border: 0px ;
+    /* background-color: rgb(47, 58, 100); */
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    /* padding: 20px 50px; */
+    text-decoration: none;
+    font-size: 20px;
+  font-family:sans-serif;
+  }
+  
+ .topnav a:hover {
+    color: orangered;
+  }
+  a.active{
+    color:orangered;
+  }
+  .button4{
+    border-radius: 25px;
+    border: none;
+    
+  }
+  img{
+    height:30px;
+    width:-5px;
+  }
+  .button4:hover {
+    background-color: #ccc;
+    color: #fff;
+  }
+  .button3{
+    border-radius: 25px;
+    border: none;
+    background-color: black;
+
+    
+  }
+  .button3:hover {
+    background-color: #ccc;
+    color: #fff;
+  }
+  .button2{
+    border-radius: 25px;
+    border: none;
+    background-color: black;
+    
+  }
+  .button2:hover {
+    background-color: #ccc;
+    color: #fff;
+  }
+  .button1{
+    border-radius: 25px;
+    border: none;
+
+  }
+  .button1:hover {
+    background-color: #ccc;
+   
+  }
+
+.button_home{
+  border-radius: 25px;
+  border: none;
+  text-emphasis-color: blue;
+  
+}
+.button_home:hover {
+  background: linear-gradient(89.2deg, rgb(191, 241, 236) 22.3%, rgb(109, 192, 236) 84.1%);
+  color: rgb(3, 3, 73);
+ 
+}
+.search{
+
+  margin-left:10%;
+  margin-top:-40px;
+  width:10px;
+  
+}
+
+.search input
+{
+  width:350px;
+  height:25px;
+  margin-top: -25px;
+}
