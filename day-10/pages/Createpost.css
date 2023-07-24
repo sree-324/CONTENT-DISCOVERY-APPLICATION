@@ -1,0 +1,22 @@
+.posthead{
+    align-items: center;
+     color:   #d3b1c2;
+     margin-top: -50%;
+ }
+ input{
+     width:90px;
+ }
+ .comment{
+     width: 56%;
+     height: 225px;
+     margin-left: 20%;
+ }
+ .postbtn{
+     cursor: pointer;
+     color: blue;
+ }
+ button{
+     cursor: pointer;
+     
+ 
+ }
